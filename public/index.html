@@ -4,22 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colmar Academy</title>
+    <link rel="stylesheet" href="./output.css">
 </head>
 <body>
     <header>
-        <div>
-            <img src="./images/capstone_colmar_assets/images/ic-logo.svg" alt="ic-logo">
-            <h1><strong>COLMAR</strong>ACADEMY</h1>
-        </div>
-        <nav>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+        <nav class="h-[64px] w-screen px-[24px] flex justify-between max-sm:hidden">
+            <div class="flex max-sm:hidden">
+                <img src="./images/capstone_colmar_assets/images/ic-logo.svg" alt="ic-logo">
+                <h1><strong>COLMAR</strong>ACADEMY</h1>
+            </div>
+
+            <div class="flex justify-center h-[64px]">
+                <ul>
+                    <li><a href="#">On campus</a></li>
+                    <li><a href="#">Online</a></li>
+                    <li><a href="#">For companies</a></li>
+                    <li><a href="#">Sign in</a></li>
+                </ul>
+            </div>
         </nav>
-    </header>
+        <div class="flex w-screen sm:hidden">
+            <a href="#"><img src="./images/capstone_colmar_assets/images/ic-logo.svg" alt="ic-logo"></a>
+            <a href="#"><img src="./images/capstone_colmar_assets/images/ic-on-campus.svg" alt="ic-on-campus"></a>
+            <a href="#"><img src="./images/capstone_colmar_assets/images/ic-online.svg" alt="ic-online"></a>
+            <a href="#"><img src="./images/capstone_colmar_assets/images/ic-login.svg" alt="ic-login"></a>
+        </div>
+        </header>
     <main>
         <section class="hero">
             <div>
